@@ -1,0 +1,49 @@
+{
+  "name": "node-react-backend",
+  "version": "0.0.1",
+  "description": "Sample Node Express Backend Service",
+  "main": "src/app.ts",
+  "scripts": {
+    "dev": "nodemon src/app.ts",
+    "build": "rm -rf build/ && prettier --write src/ && tsc",
+    "test:unit": "jest --coverage --detectOpenHandles",
+    "start": "node -r tsconfig-paths/register ./bin/app.js"
+  },
+ 
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "rest",
+    "api",
+    "react"
+  ],
+  "author": "antony",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express-serve-static-core": "^4.17.29",
+    "@types/morgan": "^1.9.3",
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.1",
+    "morgan": "^1.10.0",
+    "ts-node": "^10.8.1",
+    "tsconfig-paths": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jest": "^28.1.4",
+    "@types/node": "^18.0.1",
+    "@types/supertest": "^2.0.12",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^28.1.2",
+    "nodemon": "^2.0.18",
+    "superagent": "^8.0.0",
+    "supertest": "^6.2.4",
+    "ts-jest": "^28.0.5",
+    "typescript": "^4.7.4"
+  }
+}

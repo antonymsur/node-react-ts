@@ -1,0 +1,23 @@
+# simple backend api and frontend react app
+
+backend npm Commands :
+- start #starts on port 8080
+- test
+
+
+frontend npm Commands :
+
+- start #starts on port 8081
+- test
+
+Tech Stack :
+
+- Express middleware
+- ReactJS for frontend
+- Jest for unit testing
+- supertest for api testing
+
+Prerequisites:
+
+- Node 16.10.0 and NPM installed
+
